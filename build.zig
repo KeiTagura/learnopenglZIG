@@ -5,7 +5,7 @@ const builtin = @import("builtin");
 pub fn build(b: *Builder) void {
     // Each tutorial stage, its source file, and description
     const targets = [_]Target{
-        .{ .name = "hello_window", .src = "src/1_1_hello_window.zig", .description = "Hello GLFW Window" },
+        .{ .name = "hello_window test", .src = "src/1_1_hello_window.zig", .description = "Hello GLFW Window" },
         .{ .name = "hello_triangle", .src = "src/1_2_hello_triangle.zig", .description = "Hello OpenGL Triangle" },
         .{ .name = "shaders", .src = "src/1_3_shaders.zig", .description = "OpenGL Shaders" },
         .{ .name = "textures", .src = "src/1_4_textures.zig", .description = "OpenGL Textures" },
